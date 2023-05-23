@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;1,400;1,500&family=Besley:wght@900&family=Encode+Sans:wght@100&family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;1,400;1,500&family=Besley:wght@900&family=Encode+Sans:wght@100&family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    background-color: antiquewhite;
+}
+p{
+    font-size: 14px;
+}
+.izquierda{
+    width: 300px;
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.izquierda > img{
+    width: 300px;
+    height: 500px;
+}
+.derecha{
+    width: 300px;
+    height: 500px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+.derecha > h1{
+    margin-left: 8%;
+}
+.primero{
+    font-family: 'Monserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 10px;
+    margin-left: 8%;        
+}
+.segundo{
+    margin-left: 8%;
+    font-family: 'Monsrreat', sans-serif;
+    font-size: 1em;
+    letter-spacing: 2.5px;
+    line-height: 150%;
+    color:  hsl(228, 12%, 48%);
+}
+.imagenPrincipal{
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.precios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 20%;
+}
+.precio{
+    color: hsl(120, 100%, 25%);
+    font-weight: 400;
+    /* font-stretch: normal;
+    font-optical-sizing: auto;
+    text-align: start;
+    opacity: 1; */
+    font-family: 'Fraunces', sans-serif;
+    /* line-height: initial; */
+    font-size: 40px;
+    margin-right: 10%;
+}
+.descuento{
+    color: grey;
+    text-decoration:line-through;
+    font-family: 'Fraunces', sans-serif;
+}
+.pago{
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    background-color: hsl(120, 100%, 25%);
+    color:hsl(0, 0%, 100%);
+    border: 0px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+@media (max-width: 600px) {
+    body{
+        flex-direction: column;
+    }
+    .derecha{
+        border-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .izquierda{
+        height: 200px;
+        border-radius: 0px;
+
+    }
+    .imagenPrincipal{
+        width: 400px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+  }

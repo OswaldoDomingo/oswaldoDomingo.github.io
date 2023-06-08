@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-3 2x32.png">
+
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p>Oswaldo</p>
+  <div class="container">
+    
+      <div class="entrada-datos">
+        <div class="input-dias">
+          <label for="dia">Day</label> <br>
+          <input type="text" name="dia" id="day" placeholder="DD" >
+          <br>
+          <span id="dia-error" class="error"></span>
+        </div>
+        <div class="input-mes">
+          <label for="mes">Month</label> <br>
+          <input type="text" name="mes" id="mounth" placeholder="MM" >
+          <br>
+          <span id="mes-error" class="error"></span>
+        </div>
+        <div class="input-anyo">
+          <label for="anyo">Year</label> <br>
+          <input type="text" name="anyo" id="year" placeholder="YYYY" >
+          <br>
+          <span id="anyo-error" class="error"></span>
+        </div>
+      </div>
+      <div class="boton">
+        <hr >
+        <button type="submit" class="pulsa">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 44">
+            <g fill="none" stroke="#FFF" stroke-width="2">
+              <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"></path>
+            </g>
+          </svg>
+        </button>
+
+  </div>
+  <div class="salida-datos">
+    <p class="muestra-datos"> <span id="muestra-anyo" class="resultado"> -- </span> years </p>
+    <p class="muestra-datos"> <span id="muestra-mes" class="resultado"> -- </span> months </p>
+    <p class="muestra-datos"> <span id="muestra-dia" class="resultado"> -- </span> days </p>
+  </div>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Oswaldo</a>.
+  </div>
+  <script src="js.js"></script>
+</body>
+
+</html>

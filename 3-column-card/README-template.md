@@ -30,6 +30,7 @@ Escritorio
 El botón seleccionado
 ![Imagen](images/coches2.png)
 Versión móvil
+
 ![Imagen](images/coches3.png)
 
 ### Links

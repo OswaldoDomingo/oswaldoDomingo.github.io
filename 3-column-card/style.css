@@ -68,7 +68,7 @@ font-family: 'Lexend Deca', sans-serif;
 
 .container{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     margin-top: 80px;
 }

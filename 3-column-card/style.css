@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Lexend+Deca&display=swap');
+/*
+# Front-end Style Guide
+## Layout
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+*/
+.colores{
+    /* Bright orange: hsl(31, 77%, 52%) */
+    color:hsl(31, 77%, 52%);
+    color:rgb(227, 136, 38);
+    color:#e38826;
+    /*Dark cyan: hsl(184, 100%, 22%)*/
+    color:hsl(184, 100%, 22%);
+    color:rgb(0, 105, 112);
+    color:#006970;
+    /*Very dark cyan: hsl(179, 100%, 13%)*/
+    color:hsl(179, 100%, 13%);
+    color:rgb(0, 66, 65);
+    color:#004241;
+}
+/*
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+    Traducción:
+        Blanco transparente (párrafos): hsla(0, 0%, 100%, 0.75)
+        Gris muy claro (fondo, encabezados, botones): hsl(0, 0%, 95%)
+*/
+.colores{
+    /*Transparent white (paragraphs):*/
+    color: hsla(0, 0%, 100%, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    color: #ffffffbf;
+    /*Very light gray (background, headings, buttons):*/
+    color: hsl(0, 0%, 95%);
+    color: rgb(242, 242, 242);
+    color: #f2f2f2;
+}
+/*
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+*/
+/*
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.tarjeta{
+    width: 280px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.sedan{
+    background-color: #e38826;
+    border-radius: 20px 0 0 20px;
+    color:#e38826;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(184, 100%, 22%);
+}   
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 20px 20px 0;
+    color:hsl(179, 100%, 13%);
+}
+.icono{
+    width: 64px;
+    height: 40px;
+}
+
+.boton{
+    width: 190px;
+    height: 54px;
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 95%);    
+    border-color: #f2f2f2;
+    border: none;
+}
+.boton:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: hsla(0, 0%, 100%, 0.75);
+    border: hsla(0, 0%, 100%, 0.75) 1.5px solid;
+}
+.descripcion{
+    width: 200px;
+    height: 250px;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.descripcion, .boton{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.categoria-coche{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.75); ;
+}
+
+@media (max-width: 600px){
+    .container{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .sedan{
+        border-radius: 20px 20px 0px 0px;
+    }
+    .luxury{
+        border-radius: 0px 0px 20px 20px;
+    }
+    .boton{
+        border-radius: 50px;
+    }
+}
+

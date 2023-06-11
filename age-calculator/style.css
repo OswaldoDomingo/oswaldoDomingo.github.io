@@ -146,6 +146,9 @@ input[type=text]:focus{
         display: flex;
         flex-direction: column;
     }
+        .muestra-datos{
+        font-size: 65px;
+    }
     .boton{
         display: inline;
         position: relative;   

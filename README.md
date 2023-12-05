@@ -3,5 +3,5 @@
 >.[!Note]
 >Alerta
 
->.[Tip]
+>.[!Tip]
 >Tipado

@@ -1,3 +1,3 @@
 # oswaldoDomingo.github.io
->.[!Alert]
+>.[!Note]
 >Alerta
